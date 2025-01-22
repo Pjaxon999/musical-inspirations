@@ -1,0 +1,75 @@
+@import "modern-normalize";
+
+:root {
+  line-height: 1.5;
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  font-family: var(--system-ui);
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+article {
+  max-width: 45rem;
+  max-inline-size: 66ch;  
+  margin-inline: auto;
+}
+
+article h1 {
+  font-size: 2.5em;
+  line-height: calc(1ex / 0.42);
+  margin: calc(1ex / 0.42) 0;
+}
+
+article h2 {
+  font-size: 2em;
+  line-height: calc(1ex / 0.42);
+  margin: calc(1ex / 0.42) 0;
+}
+
+article h3 {
+  font-size: 1.75em;
+  line-height: calc(1ex / 0.38);
+  margin: calc(1ex / 0.38) 0;
+}
+
+article h4 {
+  font-size: 1.5em;
+  line-height: calc(1ex / 0.37);
+  margin: calc(1ex / 0.37) 0;
+}
+
+article p {
+  font-size: 1.25em;
+  line-height: calc(1ex / 0.32);
+  margin: calc(1ex / 0.32) 0;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.heading-image {
+  width: 60%;
+}
+
